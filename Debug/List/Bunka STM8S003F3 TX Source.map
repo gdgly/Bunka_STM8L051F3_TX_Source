@@ -1,51 +1,47 @@
 ###############################################################################
 #                                                                             #
-# IAR ELF Linker V1.31.1.50058 for STM8                 16/Mar/2018  10:42:43 #
+# IAR ELF Linker V1.31.1.50058 for STM8                 13/Oct/2020  16:16:13 #
 # Copyright 2010-2012 IAR Systems AB.                                         #
 #                                                                             #
 #    Output file  =  F:\Source Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka  #
-#                    STM8L051F3 TX Source Ver2.0\Debug\Exe\Bunka STM8S003F3   #
-#                    TX Source.out                                            #
+#                    STM8L051F3 TX Source\Debug\Exe\Bunka STM8S003F3 TX       #
+#                    Source.out                                               #
 #    Map file     =  F:\Source Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka  #
-#                    STM8L051F3 TX Source Ver2.0\Debug\List\Bunka STM8S003F3  #
-#                    TX Source.map                                            #
+#                    STM8L051F3 TX Source\Debug\List\Bunka STM8S003F3 TX      #
+#                    Source.map                                               #
 #    Command line =  "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
-#                    Source\Bunka STM8L051F3 TX Source                        #
-#                    Ver2.0\Debug\Obj\EXIT_FUN.o" "F:\Source                  #
-#                    Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka            #
-#                    STM8L051F3 TX Source Ver2.0\Debug\Obj\Timer.o"           #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\EXIT_FUN.o"  #
 #                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
-#                    Source\Bunka STM8L051F3 TX Source                        #
-#                    Ver2.0\Debug\Obj\ad.o" "F:\Source Code\bunka-s\Bunka     #
-#                    STM8L051F3 TX Source\Bunka STM8L051F3 TX Source          #
-#                    Ver2.0\Debug\Obj\adf7012.o" "F:\Source                   #
-#                    Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka            #
-#                    STM8L051F3 TX Source Ver2.0\Debug\Obj\eeprom.o"          #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\Timer.o"     #
 #                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
-#                    Source\Bunka STM8L051F3 TX Source                        #
-#                    Ver2.0\Debug\Obj\initial.o" "F:\Source                   #
-#                    Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka            #
-#                    STM8L051F3 TX Source Ver2.0\Debug\Obj\key_and_Other.o"   #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\ad.o"        #
 #                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
-#                    Source\Bunka STM8L051F3 TX Source                        #
-#                    Ver2.0\Debug\Obj\main.o" "F:\Source Code\bunka-s\Bunka   #
-#                    STM8L051F3 TX Source\Bunka STM8L051F3 TX Source          #
-#                    Ver2.0\Debug\Obj\ram.o" "F:\Source Code\bunka-s\Bunka    #
-#                    STM8L051F3 TX Source\Bunka STM8L051F3 TX Source          #
-#                    Ver2.0\Debug\Obj\stm8l15x_it.o" "F:\Source               #
-#                    Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka            #
-#                    STM8L051F3 TX Source Ver2.0\Debug\Obj\uart.o"            #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\adf7012.o"   #
+#                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\eeprom.o"    #
+#                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\initial.o"   #
+#                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\key_and_Othe #
+#                    r.o" "F:\Source Code\bunka-s\Bunka STM8L051F3 TX         #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\main.o"      #
+#                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\ram.o"       #
+#                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\stm8l15x_it. #
+#                    o" "F:\Source Code\bunka-s\Bunka STM8L051F3 TX           #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\Obj\uart.o"      #
 #                    --redirect _Printf=_PrintfSmall --redirect               #
 #                    _Scanf=_ScanfSmall -o "F:\Source Code\bunka-s\Bunka      #
-#                    STM8L051F3 TX Source\Bunka STM8L051F3 TX Source          #
-#                    Ver2.0\Debug\Exe\Bunka STM8S003F3 TX Source.out" --map   #
+#                    STM8L051F3 TX Source\Bunka STM8L051F3 TX                 #
+#                    Source\Debug\Exe\Bunka STM8S003F3 TX Source.out" --map   #
 #                    "F:\Source Code\bunka-s\Bunka STM8L051F3 TX              #
-#                    Source\Bunka STM8L051F3 TX Source                        #
-#                    Ver2.0\Debug\List\Bunka STM8S003F3 TX Source.map"        #
-#                    --config "D:\Program Files (x86)\IAR Systems\Embedded    #
-#                    Workbench 6.0 Evaluation\stm8\config\lnkstm8l051f3.icf"  #
-#                    --config_def _CSTACK_SIZE=0x100 --config_def             #
-#                    _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib #
+#                    Source\Bunka STM8L051F3 TX Source\Debug\List\Bunka       #
+#                    STM8S003F3 TX Source.map" --config "C:\Program Files     #
+#                    (x86)\IAR Systems\Embedded Workbench 6.0                 #
+#                    Evaluation\stm8\config\lnkstm8l051f3.icf" --config_def   #
+#                    _CSTACK_SIZE=0x100 --config_def _HEAP_SIZE=0x100         #
+#                    --entry __iar_program_start --debug_lib                  #
 #                                                                             #
 #                                                                             #
 ###############################################################################
@@ -279,7 +275,7 @@ Zero (__iar_zero_init2)
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-F:\Source Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka STM8L051F3 TX Source Ver2.0\Debug\Obj: [1]
+F:\Source Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka STM8L051F3 TX Source\Debug\Obj: [1]
     EXIT_FUN.o                 637
     Timer.o                    100
     ad.o                       227
@@ -637,7 +633,7 @@ txphase_Repeat            0x0000a6    0x1  Data  Gb  ram.o [1]
 txphase_end               0x000083    0x2  Data  Gb  ram.o [1]
 
 
-[1] = F:\Source Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka STM8L051F3 TX Source Ver2.0\Debug\Obj
+[1] = F:\Source Code\bunka-s\Bunka STM8L051F3 TX Source\Bunka STM8L051F3 TX Source\Debug\Obj
 [2] = command line
 [3] = dbgstm8ssd.a
 [4] = dlstm8ssn.a
